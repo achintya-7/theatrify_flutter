@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "355581073004",
+    "project_id": "theatrify-5c630",
+    "storage_bucket": "theatrify-5c630.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355581073004:android:19ff3a13400f8e4d3baa49",
+        "android_client_info": {
+          "package_name": "com.example.theatrify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355581073004-n9o0tmaqrf8j7hu3g3vvu7t3rkh3qh73.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theatrify",
+            "certificate_hash": "f69b33c1f72c983e1adc5c09a1bcac89a5806095"
+          }
+        },
+        {
+          "client_id": "355581073004-lnvldijpe4h0c8pdsv3kmi9c3v4q9nr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBqZ8ofm3nbY-gIl8O09_Y8yL3eEMOty0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355581073004-lnvldijpe4h0c8pdsv3kmi9c3v4q9nr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
