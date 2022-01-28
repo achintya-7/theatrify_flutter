@@ -35,7 +35,7 @@
 24-->[androidx.core:core:1.6.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/db11aab57f7cc8d0296c43256cc67133/core-1.6.0/AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
-27        android:label="theatrify" >
+27        android:label="Theatrify" >
 28        <activity
 29            android:name="com.example.theatrify.MainActivity"
 30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

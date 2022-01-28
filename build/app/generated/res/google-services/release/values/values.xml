@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">355581073004-lnvldijpe4h0c8pdsv3kmi9c3v4q9nr1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">355581073004</string>
+    <string name="google_api_key" translatable="false">AIzaSyCBqZ8ofm3nbY-gIl8O09_Y8yL3eEMOty0</string>
+    <string name="google_app_id" translatable="false">1:355581073004:android:19ff3a13400f8e4d3baa49</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCBqZ8ofm3nbY-gIl8O09_Y8yL3eEMOty0</string>
+    <string name="google_storage_bucket" translatable="false">theatrify-5c630.appspot.com</string>
+    <string name="project_id" translatable="false">theatrify-5c630</string>
+</resources>

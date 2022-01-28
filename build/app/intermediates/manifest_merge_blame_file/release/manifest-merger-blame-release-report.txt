@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.theatrify"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml
+10    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:13:5-79
+12-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:13:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:14:5-67
+13-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:14:22-64
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/5f8918c5a231ceaf01512ba04f25c9ab/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/5f8918c5a231ceaf01512ba04f25c9ab/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+15-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/72bcba41e2102d142a3bafeb9d17168a/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/72bcba41e2102d142a3bafeb9d17168a/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+17
+18    <application
+19        android:name="android.app.Application"
+19-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:5:9-42
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/db11aab57f7cc8d0296c43256cc67133/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:6:9-43
+22        android:label="Theatrify" >
+22-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:4:9-34
+23        <activity
+23-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:7:9-27:20
+24            android:name="com.example.theatrify.MainActivity"
+24-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:8:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:12:13-163
+26            android:exported="true"
+26-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:9:13-36
+27            android:hardwareAccelerated="true"
+27-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:13:13-47
+28            android:launchMode="singleTop"
+28-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:10:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:11:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:14:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:19:13-22:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:20:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:21:15-52
+41
+42            <intent-filter>
+42-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:23:13-26:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:24:17-68
+43-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:24:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:25:17-76
+45-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:25:27-74
+46            </intent-filter>
+47        </activity>
+48        <!--
+49             Don't delete the meta-data below.
+50             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+51        -->
+52        <meta-data
+52-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:30:9-32:33
+53            android:name="flutterEmbedding"
+53-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:31:13-44
+54            android:value="2" />
+54-->/home/achintya/Desktop/Code/Flutter/theatrify/android/app/src/main/AndroidManifest.xml:32:13-30
+55
+56        <service
+56-->[:cloud_firestore] /home/achintya/Desktop/Code/Flutter/theatrify/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[:cloud_firestore] /home/achintya/Desktop/Code/Flutter/theatrify/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:20.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/245f1b766dee744d57b07a368f37da5b/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:19:13-37
+60            <meta-data
+60-->[:cloud_firestore] /home/achintya/Desktop/Code/Flutter/theatrify/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+61-->[:cloud_firestore] /home/achintya/Desktop/Code/Flutter/theatrify/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:cloud_firestore] /home/achintya/Desktop/Code/Flutter/theatrify/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+63            <meta-data
+63-->[:firebase_core] /home/achintya/Desktop/Code/Flutter/theatrify/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+64-->[:firebase_core] /home/achintya/Desktop/Code/Flutter/theatrify/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:firebase_core] /home/achintya/Desktop/Code/Flutter/theatrify/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+67                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+67-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-firestore:24.0.1] /home/achintya/.gradle/caches/transforms-2/files-2.1/4b73e039c8c2743c4c6206451b564397/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+69            <meta-data
+69-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/5f8918c5a231ceaf01512ba04f25c9ab/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+70                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+70-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/5f8918c5a231ceaf01512ba04f25c9ab/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.android.gms:play-services-measurement-api:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/5f8918c5a231ceaf01512ba04f25c9ab/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-installations:17.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/b646a1c3488e0fa90dc6654323ab235e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+73                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+73-->[com.google.firebase:firebase-installations:17.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/b646a1c3488e0fa90dc6654323ab235e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-installations:17.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/b646a1c3488e0fa90dc6654323ab235e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+75        </service>
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:20.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/245f1b766dee744d57b07a368f37da5b/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:20.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/245f1b766dee744d57b07a368f37da5b/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+79            android:authorities="com.example.theatrify.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:20.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/245f1b766dee744d57b07a368f37da5b/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:20.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/245f1b766dee744d57b07a368f37da5b/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:20.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/245f1b766dee744d57b07a368f37da5b/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:20.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/245f1b766dee744d57b07a368f37da5b/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+83
+84        <receiver
+84-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+85            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+85-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+86            android:enabled="true"
+86-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+88        </receiver>
+89
+90        <service
+90-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+91            android:name="com.google.android.gms.measurement.AppMeasurementService"
+91-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+93            android:exported="false" />
+93-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+94        <service
+94-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+95            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+95-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+96            android:enabled="true"
+96-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+98            android:permission="android.permission.BIND_JOB_SERVICE" />
+98-->[com.google.android.gms:play-services-measurement:20.0.2] /home/achintya/.gradle/caches/transforms-2/files-2.1/4d67cdf06be562af1e3b14f6f7e02204/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.1.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/f58498a3641a0b4078db8eb0d24ddce5/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.1.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/f58498a3641a0b4078db8eb0d24ddce5/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.1.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/f58498a3641a0b4078db8eb0d24ddce5/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.1.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/f58498a3641a0b4078db8eb0d24ddce5/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:18.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/5abb6b57d6ccb1f3e678a4fbc9e41fff/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:18.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/5abb6b57d6ccb1f3e678a4fbc9e41fff/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:18.0.0] /home/achintya/.gradle/caches/transforms-2/files-2.1/5abb6b57d6ccb1f3e678a4fbc9e41fff/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+108    </application>
+109
+110</manifest>
