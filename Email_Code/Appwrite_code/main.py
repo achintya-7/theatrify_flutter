@@ -1,5 +1,5 @@
-key_news = "75b9d11fc15a49f59a575c9bb0aa8fb0"
-key_email = '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'
+
+
 
 import random
 from newsapi import NewsApiClient
@@ -11,16 +11,16 @@ from appwrite.services.database import Database
 # COLLECTING OF EMAILS FROM THE DATABASE
 client = Client()
 
-(client.set_endpoint('https://35.226.27.103/v1')  # Your API Endpoint
- .set_project('61eafcf28a615a64f0df')  # Your project ID
+(client.set_endpoint('https://[HOSTNAME]1')  # Your API Endpoint
+ .set_project('Project ID')  # Your project ID
  .set_key(
-     '0b58bd7ae0457d2f264b512a3c9c1a99f7758ddac0266ab1ede8539dbeee910a3d281a97ce65f79c6125dc1fd7f942495b3d25a1638152307caafd2850db2cc74d89c53a03c140b1408a5fd8f09b9084fff0720d9f6d9ed721604f0c382e68b3707a69ceb1f170e79e02e3bb8689272fb495336bcc9831b969d363ec334846ad'
+     'API key of appwrite'
  ).set_self_signed()  # Your secret API key
  )
 
 database = Database(client)
 
-result = database.list_documents('61eafd364852a5bccadb')
+result = database.list_documents('document ID')
 result2 = result['documents']
 email_ids = []
 
