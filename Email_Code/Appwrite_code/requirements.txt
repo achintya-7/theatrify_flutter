@@ -1,0 +1,3 @@
+appwrite
+newsapi-python
+sendgrid
